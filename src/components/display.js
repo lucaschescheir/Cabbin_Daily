@@ -36,9 +36,6 @@ function state2props(state) {
     };
 }
 
-function dispatch2props(dispatch) {
-    return {
-    };
-}
 
-export default connect(state2props, dispatch2props)(Display);
+
+export default connect(state2props, null)(Display);
